@@ -169,7 +169,7 @@ The downside of the latter approach is that you will need to adjust the return o
 
 == columnName
 
-The `columName` argument will change the translation of custom Cypher. Instead of using https://neo4j.com/labs/apoc/4.0/overview/apoc.cypher/apoc.cypher.runFirstColumnMany/[apoc.cypher.runFirstColumnMany] it will directly wrap the query within a `CALL { }` subquery. This behvaiour has proven to be much more performant for the same queries.
+The `columName` argument will change the translation of custom Cypher. Instead of using https://neo4j.com/labs/apoc/4.0/overview/apoc.cypher/apoc.cypher.runFirstColumnMany/[apoc.cypher.runFirstColumnMany] it will directly wrap the query within a `CALL { }` subquery. This behaviour has proven to be much more performant for the same queries.
 
 
 `columnName` should be the name of the returned variable to be used in the rest of the query. For example:
